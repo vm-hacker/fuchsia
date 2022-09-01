@@ -12,12 +12,7 @@ fd stores two helper files, fd.txt and fd.pickle in $FUCHSIA_DIR/out/.
 If that directory does not exists, fd will create one.
 """
 
-import argparse
-import os
-import pickle
-import sys
-import termios
-import tty
+import argparse,os,pickle,sys,termios,tty
 
 SEARCH_BASE = os.environ['FUCHSIA_DIR']  # or 'HOME'
 STORE_DIR = SEARCH_BASE + '/out/'
