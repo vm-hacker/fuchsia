@@ -7,9 +7,7 @@
 This script allows for the conversion between ids.txt and .build-id formats.
 """
 
-import os
-import sys
-import argparse
+import os,sys,argparse
 
 # rel_to is expected to be absolute
 def abs_path(path, rel_to):
